@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+.flex {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+a {
+  color: inherit;
+}
+
+/* HEADER */
+
+header {
+  background-color: orange;
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+/* SIDEBAR */
+
+nav {
+  background-color: lightblue;
+  width: 20%;
+  padding: 1rem;
+}
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* MAIN */
+
+main {
+  background-color: palevioletred;
+  width: calc(60% - 2rem);
+  padding: 1rem;
+}
+
+aside {
+  background-color: lightgreen;
+  width: 20%;
+  padding: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+  height: 80px;
+  background-color: fuchsia;
+  margin-top: 1rem;
+}
